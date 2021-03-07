@@ -1,6 +1,6 @@
 import {useEffect, useState} from "react";
 
-const fn = () => {
+export default () => {
     const [online, networkStatus] = useState(navigator.onLine);
 
     useEffect(() => {
